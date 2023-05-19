@@ -1,0 +1,5 @@
+.product-detail-content {
+  .btn-buy {
+    @include button-variant($sass-istar-design-button-color, $sass-istar-design-button-color);
+  }
+}

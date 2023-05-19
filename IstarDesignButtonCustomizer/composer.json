@@ -1,0 +1,44 @@
+{
+  "name": "istar-design/button-customizer",
+  "description": "Istar Design Button Customizer",
+  "type": "shopware-platform-plugin",
+  "license": "proprietary",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Istar Design",
+      "role": "Company"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "IstarDesign\\ButtonCustomizer\\": "src/"
+    }
+  },
+  "require": {
+    "shopware/core": "*",
+    "shopware/storefront": "*",
+    "shopware/administration": "*"
+  },
+  "extra": {
+    "shopware-plugin-class": "IstarDesign\\ButtonCustomizer\\IstarDesignButtonCustomizer",
+    "plugin-icon": "src/Resources/config/logo.png",
+    "copyright": "(c) by Istar Design Studio",
+    "label": {
+      "en-GB": "Button Customizer",
+      "de-DE": "Button Customizer"
+    },
+    "description": {
+      "en-GB": "The plugin is responsible for setting colors for <add to cart> buttons  on PLP and PDP. The plugin is a test case for passing interview. No commercial usage",
+      "de-DE": "Das Plugin ist für das Festlegen der Farben für die Schaltflächen auf PLP und PDP verantwortlich.Das Plugin ist ein Testfall für das Bestehen eines Vorstellungsgesprächs"
+    },
+    "manufacturerLink": {
+      "en-GB": "https://istardesign.com",
+      "de-DE": "https://istardesign.com"
+    },
+    "supportLink": {
+      "en-GB": "https://istardesign.com",
+      "de-DE": "https://istardesign.com"
+    }
+  }
+}

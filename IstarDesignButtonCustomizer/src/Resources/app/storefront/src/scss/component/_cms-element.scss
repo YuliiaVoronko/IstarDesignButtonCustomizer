@@ -1,0 +1,5 @@
+.cms-element-product-listing {
+  .btn-buy {
+    @include button-variant($sass-istar-design-button-color, $sass-istar-design-button-color);
+  }
+}

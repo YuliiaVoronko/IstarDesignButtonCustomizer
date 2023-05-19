@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/System/SystemConfig/Schema/config.xsd">
+    <card>
+        <title>Button Customizer Configuration</title>
+        <title lang="de-DE">Schaltflächen-Customizer-Konfiguration</title>
+        <input-field type="single-select">
+            <name>buttonCustomizerHexColor</name>
+            <options>
+                <option>
+                    <id>#FF0707</id>
+                    <name>Red</name>
+                    <name lang="de-DE">Rot</name>
+                </option>
+                <option>
+                    <id>#32CD32</id>
+                    <name>Green</name>
+                    <name lang="de-DE">Grün</name>
+                </option>
+                <option>
+                    <id>#0000CC</id>
+                    <name>Blue</name>
+                    <name lang="de-DE">Blau</name>
+                </option>
+            </options>
+            <defaultValue>#FF0707</defaultValue>
+            <helpText>Please select you color in order to adjust color of button on PLP and PDP</helpText>
+            <label>Choose Default Color</label>
+        </input-field>
+    </card>
+</config>
